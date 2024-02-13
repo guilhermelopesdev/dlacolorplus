@@ -1,4 +1,4 @@
-![cplcolor_logotype](https://user-images.githubusercontent.com/72569409/102688100-29cae600-41d3-11eb-9aa1-93bd714abf41.png)
+![cplcolor_logotype](https://github.com/guilhermelopesdev/dlacolorplus/assets/159596944/d90729fb-2205-4f85-afb1-2ba17a5e52b7)
 # DLA Color
  
 ![GitHub repo size](https://img.shields.io/github/repo-size/guilhermeoliveiralopes/dlacolor?color=ff6464&label=size)
