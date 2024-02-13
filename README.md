@@ -4,7 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/guilhermeoliveiralopes/dlacolor?color=ff6464&label=size)
 ![GitHub](https://img.shields.io/github/license/guilhermeoliveiralopes/dlacolor?color=6ebdff)
 
-⚠️ ATTENTION: The ViCo color system has not yet been implemented in this version for Arduino.
+⚠️ ATTENTION: Library in a major update to implement new features. New update coming soon.
  
 ## What is DLAColor?
 

@@ -4,6 +4,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/guilhermeoliveiralopes/dlacolor?color=ff6464&label=size)
 ![GitHub](https://img.shields.io/github/license/guilhermeoliveiralopes/dlacolor?color=6ebdff)
  
+⚠️ ATENÇÃO: Biblioteca em grande atualização para implementação de novas funcionalidades. Nova atualização em breve.
+
 ## O que é DLAColor?
 
 A biblioteca DLA Color, facilita a utilização de LEDs e lâmpadas RGB, de uma forma simples, e com sintaxe simples. Ela é uma biblioteca Open Source, criada por uma pequena comunidade de programadores de Arduino e ESP32. A biblioteca conta com diversos modos para definir a cor, atualmente há como definir através de valores RGB, ou com o código, ou nome com base na paleta de cores ViCo. A biblioteca está em desenvolvimento, para poder ter mais formas de definir a cor, mas todas as versões publicadas nas tags são versões estáveis.
