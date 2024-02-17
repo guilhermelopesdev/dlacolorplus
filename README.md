@@ -27,7 +27,7 @@ There are a few methods you can use, and it's been developing more and more, so 
        led1.rgb(255, 255, 255);
 * **id:** With setcode, you can set the LED color quickly without needing RGB or other code. Just consult the color table (found below), and enter the color ID. It is recommended not to memorize the color coding, as all codes will only be permanently defined in version 1.0.0 of the library. Example:
  
-       led1.code(2);
+       led1.id(2);
 * **shine** The shine serves to define the LED brightness, the value used in the brightness can vary from 0 (in zero the LED is off) to 100 (in 100 the LED is at its maximum brightness). If the defined brightness value exceeds the value of 100 and is less than 0, there may be changes in the defined color, or even an error. Example:
  
        led1.shine(100);
