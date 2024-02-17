@@ -9,7 +9,7 @@ class pinrgb{
     public:
         pinrgb(int pinR, int pinG, int pinB);
         void rgb(int R, int G, int B);
-        void code(int codeColor);
+        void id(int codeColor);
         void clear();
 		void status(bool r, bool g, bool b);
         void teste();

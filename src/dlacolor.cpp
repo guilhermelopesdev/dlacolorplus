@@ -21,7 +21,7 @@ void pinrgb::rgb(int R, int G, int B){
     analogWrite(_pinG, gc);
     analogWrite(_pinB, bc);
 }
-void pinrgb::code(int codeColor){
+void pinrgb::id(int codeColor){
     int r, g, b;
     analogWrite(_pinR, 0);
     analogWrite(_pinG, 0);
