@@ -22,27 +22,27 @@ Existem alguns métodos que você pode usar, e ela vem se desenvolvendo mais e m
  
        pinrgb led1 (3, 5, 6);
  
-* **setrgb:** Com este método você pode definir a cor do LED, por meio do código RGB que vai de 0 a 255. Exemplo:
+* **rgb:** Com este método você pode definir a cor do LED, por meio do código RGB que vai de 0 a 255. Exemplo:
 
-       led1.setrgb(255, 255, 255);
-* **setname:** Como o setname você pode definir a cor do LED apenas digitando o nome da cor conforme a lista de cores ViCo. Exemplo:
+       led1.rgb(255, 255, 255);
+* **name:** Como o setname você pode definir a cor do LED apenas digitando o nome da cor conforme a lista de cores ViCo. Exemplo:
 
-       led1.setname('blue');
-* **setcode:** Com o setcode, você pode definir a cor do LED rapidamente sem precisar de código RGB ou de outro tipo. Basta consultar a tabela de cores (que se encontra mais abaixo), e colocar o ID da cor. Exemplo:
+       led1.name('blue');
+* **code:** Com o setcode, você pode definir a cor do LED rapidamente sem precisar de código RGB ou de outro tipo. Basta consultar a tabela de cores (que se encontra mais abaixo), e colocar o ID da cor. Exemplo:
  
-       led1.setcode(2);
+       led1.code(2);
 * **shine** O shine serve para definir o brilho do LED, o valor usando no brilho pode variar de 0 (sendo que em zero o LED fica apagado) até 100 (em cem o LED está no seu brilho máximo). Caso o valor do brilho definido exceda o valor de 100 e seja menor do que 0, pode estar havendo alterações na cor definida, ou até mesmo um erro. Exemplo:
  
        led1.shine(100);
-* **setstatus:** O setstatus, serve apenas caso você queira ligar um led em uma porta que não seja PWM, ou caso você não queira ter um controle mais detalhado como no setrgb. Exemplo:
+* **status:** O setstatus, serve apenas caso você queira ligar um led em uma porta que não seja PWM, ou caso você não queira ter um controle mais detalhado como no setrgb. Exemplo:
  
-       led1.setstatus(true, false, true);
-* **setclean:** O setclean, faz com que o LED se apague totalmente. Exemplo:
+       led1.status(true, false, true);
+* **clear:** O setclean, faz com que o LED se apague totalmente. Exemplo:
  
-       led1.setclean();
-* **teste:** Para fazer um testee rápido para ver se os LEDS estão funcionando, utilize o teste, ele liga os 3 LEDS um de cada vez. Exemplo:
+       led1.clear();
+* **test:** Para fazer um testee rápido para ver se os LEDS estão funcionando, utilize o teste, ele liga os 3 LEDS um de cada vez. Exemplo:
  
-       led1.teste();
+       led1.test();
 ## Lista de Cores ViCo (Vivid Colors)
 A biblioteca DLAColor utiliza no método de definição setname, a lista de cores ViCo (Vivid Color), que é uma paleta de cores que possuem cores vivas, que funcionam perfeitamente em um LED ou lâmpada RGB. A utilização desta paleta ajuda evitar ter cores que não vão funcionar, ou que darão um resutado não esperado.
  

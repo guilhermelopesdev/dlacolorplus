@@ -13,7 +13,7 @@ pinrgb::pinrgb(int pinR, int pinG, int pinB) {
 void pinrgb::shine(int shine) {
     _shine = 100 - shine;
 }
-void pinrgb::setrgb(int R, int G, int B){
+void pinrgb::rgb(int R, int G, int B){
     int rc = R*4 - _shine*10;
     int gc = G*4 - _shine*10;
     int bc = B*4 - _shine*10;
@@ -21,7 +21,7 @@ void pinrgb::setrgb(int R, int G, int B){
     analogWrite(_pinG, gc);
     analogWrite(_pinB, bc);
 }
-void pinrgb::setcode(int codeColor){
+void pinrgb::code(int codeColor){
     int r, g, b;
     analogWrite(_pinR, 0);
     analogWrite(_pinG, 0);
@@ -81,12 +81,12 @@ void pinrgb::setcode(int codeColor){
     analogWrite(_pinB, bc);
 
 }
-void pinrgb::setclean(){
+void pinrgb::clear(){
     analogWrite(_pinR, 0);
     analogWrite(_pinG, 0);
     analogWrite(_pinB, 0);
 }
-void pinrgb::teste(){
+void pinrgb::test(){
 	digitalWrite(_pinR, HIGH);
 	delay(1000);
 	digitalWrite(_pinR, LOW);
@@ -97,7 +97,7 @@ void pinrgb::teste(){
 	delay(1000);
 	digitalWrite(_pinB, LOW);
 }
-void pinrgb::setstatus(bool r, bool g, bool b){
+void pinrgb::status(bool r, bool g, bool b){
     if(r == true) {
         digitalWrite(_pinR, HIGH);
     } else if(r == false) {

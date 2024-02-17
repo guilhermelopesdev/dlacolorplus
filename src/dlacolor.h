@@ -8,11 +8,10 @@ class pinrgb{
 
     public:
         pinrgb(int pinR, int pinG, int pinB);
-        void setrgb(int R, int G, int B);
-        void setcode(int codeColor);
-        void setclean();
-		void setstatus(bool r, bool g, bool b);
-        void setname(char name[12]);
+        void rgb(int R, int G, int B);
+        void code(int codeColor);
+        void clear();
+		void status(bool r, bool g, bool b);
         void teste();
         void shine(int shine);
         
