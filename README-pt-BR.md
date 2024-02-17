@@ -28,7 +28,7 @@ Existem alguns métodos que você pode usar, e ela vem se desenvolvendo mais e m
 * **name:** Como o setname você pode definir a cor do LED apenas digitando o nome da cor conforme a lista de cores ViCo. Exemplo:
 
        led1.name('blue');
-* **code:** Com o setcode, você pode definir a cor do LED rapidamente sem precisar de código RGB ou de outro tipo. Basta consultar a tabela de cores (que se encontra mais abaixo), e colocar o ID da cor. Exemplo:
+* **id:** Com o setcode, você pode definir a cor do LED rapidamente sem precisar de código RGB ou de outro tipo. Basta consultar a tabela de cores (que se encontra mais abaixo), e colocar o ID da cor. Exemplo:
  
        led1.code(2);
 * **shine** O shine serve para definir o brilho do LED, o valor usando no brilho pode variar de 0 (sendo que em zero o LED fica apagado) até 100 (em cem o LED está no seu brilho máximo). Caso o valor do brilho definido exceda o valor de 100 e seja menor do que 0, pode estar havendo alterações na cor definida, ou até mesmo um erro. Exemplo:
