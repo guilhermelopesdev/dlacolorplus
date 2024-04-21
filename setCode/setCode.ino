@@ -1,7 +1,6 @@
 /*  Library: dlacolor.h
  *  Creator: Guilherme Lopes
  *  Date: 14 - 11 - 2023
- *  Update: 14 - 10 - 2021
  *  Example: setcode
  */
 
@@ -14,5 +13,5 @@ void setup() {
 }
 
 void loop() {
-  led1.setcode(1); // Set the blue color through the ViCo color list
+  led1.code(1); // Set the blue color through the ViCo color list
 }

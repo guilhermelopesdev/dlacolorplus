@@ -1,7 +1,6 @@
 /*  Library: dlacolor.h
  *  Creator: Guilherme Lopes
  *  Date: 20 - 11 - 2020
- *  Update: 14 - 10 - 2021
  *  Example: setrgb
  */
 
@@ -14,5 +13,5 @@ void setup() {
 }
 
 void loop() {
-  nomeLED.setrgb(255, 255, 255); //Defines the color by RGB, following in order (R, G and B)
+  nomeLED.rgb(255, 255, 255); //Defines the color by RGB, following in order (R, G and B)
 }
