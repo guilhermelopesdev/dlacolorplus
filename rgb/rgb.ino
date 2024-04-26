@@ -1,7 +1,7 @@
 /*  Library: dlacolor.h
  *  Creator: Guilherme Lopes
  *  Date: 20 - 11 - 2020
- *  Example: setrgb
+ *  Example: rgb
  */
 
 #include <dlacolor.h> // Imports from library to code

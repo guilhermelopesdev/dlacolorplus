@@ -1,7 +1,7 @@
 /*  Library: dlacolor.h
  *  Creator: Guilherme Lopes
  *  Date: 14 - 11 - 2023
- *  Example: setcode
+ *  Example: code
  */
 
 #include <dlacolor.h> // Imports from library to code
