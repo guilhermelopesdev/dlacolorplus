@@ -18,9 +18,9 @@ Após baixar, basta abrir o ArduinoIDE e ir até Sketch > Incluir Biblioteca (In
 ## Quais os métodos que posso utilizar?
 Existem alguns métodos que você pode usar, e ela vem se desenvolvendo mais e mais, para você conseguir fazer o que quiser com esta biblioteca de forma simples. Para isto veja os métodos abaixo para utilizar a biblioteca.
  
-* **pinrgb:** Este é o primeiro método que você deve utilizar caso queira utilizar LED ou lâmpadas RGB, que contenha 3 terminais. Ele serve para criar um objeto, que contenha em quais pinos os terminais RGB estão conectados. É com ele também que você irá declarar o nome deste objeto, para que você consiga utilizá-lo de forma simples. Ele também já define os pinos como OUTPUT. Exemplo:
+* **newled:** Este é o primeiro método que você deve utilizar caso queira utilizar LED ou lâmpadas RGB, que contenha 3 terminais. Ele serve para criar um objeto, que contenha em quais pinos os terminais RGB estão conectados. É com ele também que você irá declarar o nome deste objeto, para que você consiga utilizá-lo de forma simples. Ele também já define os pinos como OUTPUT. Exemplo:
  
-       pinrgb led1 (3, 5, 6);
+       newled led1 (3, 5, 6);
  
 * **rgb:** Com este método você pode definir a cor do LED, por meio do código RGB que vai de 0 a 255. Exemplo:
 

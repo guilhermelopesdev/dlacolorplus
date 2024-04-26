@@ -18,9 +18,9 @@ After downloading, just open ArduinoIDE and go to Sketch > Include Library > Add
 ## What methods can I use?
 There are a few methods you can use, and it's been developing more and more, so you can do whatever you want with this library in a simple way. For this see the methods below to use the library.
  
-* **pinrgb:** This is the first method you should use if you want to use LED or RGB lamps, which contain 3 terminals. It serves to create an object, which contains which pins the RGB terminals are connected to. It is also with it that you will declare the name of this object, so that you can use it in a simple way. It also already defines the pins as OUTPUT. Example:
+* **newled:** This is the first method you should use if you want to use LED or RGB lamps, which contain 3 terminals. It serves to create an object, which contains which pins the RGB terminals are connected to. It is also with it that you will declare the name of this object, so that you can use it in a simple way. It also already defines the pins as OUTPUT. Example:
  
-       pinrgb led1 (3, 5, 6);
+       newled led1 (3, 5, 6);
  
 * **rgb:** With this method you can define the LED color, through the RGB code that goes from 0 to 255. Example:
 

@@ -3,11 +3,11 @@
 
 #include <Arduino.h>
 
-class pinrgb{
+class newled{
     private:
 
     public:
-        pinrgb(int pinR, int pinG, int pinB);
+        newled(int pinR, int pinG, int pinB);
         void rgb(int R, int G, int B);
         void id(int codeColor);
         void clear();

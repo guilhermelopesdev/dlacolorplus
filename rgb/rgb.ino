@@ -6,7 +6,7 @@
 
 #include <dlacolor.h> // Imports from library to code
 
-pinrgb led1 (3, 5, 6); // Define the LED's RGB terminals by order (R, G, B)
+newled led1 (3, 5, 6); // Define the LED's RGB terminals by order (R, G, B)
 
 void setup() {
 

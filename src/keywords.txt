@@ -1,5 +1,5 @@
 DLAColor	KEYWORD1
-pinrgb	KEYWORD2
+newled	KEYWORD2
 setrgb	KEYWORD2
 setcode	KEYWORD2
 setclean	KEYWORD2
