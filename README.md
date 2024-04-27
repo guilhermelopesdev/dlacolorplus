@@ -1,18 +1,18 @@
 ![cplcolor_logotype](https://github.com/guilhermelopesdev/dlacolorplus/assets/159596944/d90729fb-2205-4f85-afb1-2ba17a5e52b7)
-# DLA Color
+# DLA Color +
  
 ![GitHub repo size](https://img.shields.io/github/repo-size/guilhermeoliveiralopes/dlacolor?color=ff6464&label=size)
 ![GitHub](https://img.shields.io/github/license/guilhermeoliveiralopes/dlacolor?color=6ebdff)
 
 ⚠️ ATTENTION: Library in a major update to implement new features. New update coming soon.
  
-## What is DLAColor?
+## What is DLAColor+?
 
 The DLA Color library facilitates the use of LEDs and RGB lamps, in a simple way, and with simple syntax. It is an Open Source library, created by a small community of Arduino and ESP32 programmers. The library has several ways to define the color, currently there is how to define it through RGB values, or with code, or name based on the ViCo color palette. The library is under development, so it can have more ways to define the color, but all versions published in tags are stable versions.
  
 ## How to install?
 
-Installation is very simple, you just access it [here](https://github.com/guilhermeollopes/dlacolor/releases/), you will be redirected to the releases page, there you just choose the library version (always choose the most current).
+Installation is very simple, you just access it [here](https://github.com/guilhermelopesdev/dlacolorplus/releases/), you will be redirected to the releases page, there you just choose the library version (always choose the most current).
 After downloading, just open ArduinoIDE and go to Sketch > Include Library > Add .ZIP Library..., and select the downloaded file. This way the library will already be installed, now just use `#include <dlacolor.h>` to add the library to your project.
 
 ## What methods can I use?
